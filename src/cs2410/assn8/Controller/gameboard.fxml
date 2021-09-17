@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs2410.assn8.Controller.Controller">
+   <center>
+      <GridPane fx:id="gridPane" gridLinesVisible="true" prefWidth="492.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+            <ColumnConstraints halignment="LEFT" hgrow="NEVER" maxWidth="25.0" minWidth="25.0" prefWidth="25.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+            <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" valignment="TOP" vgrow="NEVER" />
+          <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" valignment="TOP" vgrow="NEVER" />
+          <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" valignment="TOP" vgrow="NEVER" />
+          <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" valignment="TOP" vgrow="NEVER" />
+        </rowConstraints>
+      </GridPane>
+   </center>
+   <top>
+       <fx:include fx:id="scoreboard" source="../View/scoreboard.fxml" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

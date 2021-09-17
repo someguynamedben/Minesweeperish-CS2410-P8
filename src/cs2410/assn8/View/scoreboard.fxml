@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs2410.assn8.View.Scoreboard">
+   <top>
+      <VBox prefHeight="100.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Game">
+                  <items>
+                        <Menu mnemonicParsing="false" text="Scoreboard">
+                          <items>
+                              <MenuItem mnemonicParsing="false" onAction="#handleScoreboardBtn" text="Scoreboard" />
+                            <MenuItem mnemonicParsing="false" onAction="#handleDelScores" text="Delete Scores" />
+                          </items>
+                        </Menu>
+                    <MenuItem mnemonicParsing="false" onAction="#handleExitBtn" text="Exit" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Difficulty">
+                  <items>
+                        <CheckMenuItem fx:id="easyBtn" mnemonicParsing="false" onAction="#selectedEasy" selected="true" text="Easy" />
+                        <CheckMenuItem fx:id="mediumBtn" mnemonicParsing="false" onAction="#selectedMedium" text="Medium" />
+                        <CheckMenuItem fx:id="hardBtn" mnemonicParsing="false" onAction="#selectedHard" text="Hard" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <HBox alignment="CENTER" prefHeight="70.0" prefWidth="200.0" spacing="50.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mines" />
+                        <Text fx:id="minesText" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" />
+                     </children>
+                  </VBox>
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#handleStartBtn" text="Start" />
+                  <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Time" />
+                        <Text fx:id="timeText" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
